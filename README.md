@@ -1,4 +1,4 @@
-Next.JS Manifest Dumper
+# Next.JS Manifest Dumper
 
 A Simple python script that downloads every JavaScript file that's in a `__BUILD_MANIFEST_` object in a Next.JS website.
 
