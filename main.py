@@ -9,6 +9,7 @@ manifest = json.loads(open("buildManifest.json", "r").read())
 
 
 for page in manifest:
+    if page == "sortedPages" or page == "__rewrites": continue
     for file in manifest[page]:
         print(f"Downloading {file.split('/')[-1]}")
         if (page == "/"):
