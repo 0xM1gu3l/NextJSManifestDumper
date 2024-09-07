@@ -18,5 +18,7 @@ Simply:
 - Type "__BUILD_MANIFEST"
 - Copy the result as a Object
 - Paste the result in the `buildManifest.json` file in the project.
+- Download dependencies if already not using `pip3 install -r requirements.txt`
+- Run `main.py`
 
 And that's it! Happy hacking!
