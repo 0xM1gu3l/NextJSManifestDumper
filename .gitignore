@@ -1,2 +1,3 @@
 out/*
 buildManifest.json
+.DS_Store
