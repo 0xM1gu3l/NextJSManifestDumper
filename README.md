@@ -10,14 +10,9 @@ Requirements:
 - Python >= 3.11
 - Network connection
 
-So, this script does not dumps the `__BUILD_MANIFEST` by itself, so you'll have to do it by yourself.
+~~So, this script does not dumps the `__BUILD_MANIFEST` by itself, so you'll have to do it by yourself.~~ Good news! Now you just need to put the url and that's it!
 
 Simply:
-- Go to the website
-- Open DevTools in console mode
-- Type "__BUILD_MANIFEST"
-- Copy the result as a Object
-- Paste the result in the `buildManifest.json` file in the project.
 - Download dependencies if already not using `pip3 install -r requirements.txt`
 - Run `main.py`
 
