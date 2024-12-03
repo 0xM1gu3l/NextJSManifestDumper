@@ -10,6 +10,6 @@ def get_build_manifest(url):
     driver = webdriver.Chrome(options=chrome_options)
     driver.get(f"{url}")
     # time.sleep(3)
-    build_manifest = driver.execute_script("return __BUILD_MANIFEST")
+    build_manifest = driver.execute_script("return JSON.stringify(__BUILD_MANIFEST)")
     driver.close()
-    return json.loads(str(build_manifest).replace("'", '"'))
+    return json.loads(str(build_manifest))
