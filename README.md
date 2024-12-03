@@ -17,3 +17,6 @@ Simply:
 - Run `main.py`
 
 And that's it! Happy hacking!
+
+TODO List:
+- Download main-\*.js and vendor-\*.js files
