@@ -19,4 +19,4 @@ Simply:
 And that's it! Happy hacking!
 
 TODO List:
-- Download main-\*.js and vendor-\*.js files
+- Download main-\*.js, framework-\*.js and vendor-\*.js files
